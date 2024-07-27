@@ -1,0 +1,96 @@
+"SLIDE_TO_SETUP" = "> Slide To Set Up";
+"ABOUT_HEADER" = "Welcome to Grayd00r,";
+"ABOUT_BODY" = "an injection of new life into your outdated device.";
+"ABOUT_PROJECT" = "We continue to put lots of effort into this project, and we hope it shows!";
+"ABOUT_SETUP" = "This setup will walk you through configuring your Grayd00r install, as well as a quick overview of how to use some main features.";
+"CONTINUE_SETUP" = "Continue";
+"OTA_SETTING_HEADER" = "Updates";
+"OTA_SETTING_BODY" = "Choose what type of updates you want to get for your device.";
+"OTA_SETTING_BETA_HEADER" = "Unstable";
+"OTA_SETTING_STABLE_HEADER" = "Stable";
+"OTA_SETTING_BETA_BODY" = "The bleeding edge of our development, get updates and new features/bug fixes quicker and more often.\n\nUsed for testing new features and bug fixes, you are more likely to run into bugs and other problems if you use this option.\nBug reports and feedback on changes are very welcome from those who use this option!\n\nWhile we do test these versions ourselves before putting them out to all of you, you may run into issues that require you to restore your device.\n";
+"OTA_SETTING_STABLE_BODY" = "For those that don't want to live life on the edge, this option is for you.\n\nYou may not get to try out new features right away, but you are more likely to have a relatively stable experience.\n";
+
+"ACTIVATE_HEADER" = "Activate Grayd00r";
+"ACTIVATE_BODY" = "In order to use Grayd00r, you must first activate the install.\nThis process involves sending basic information for statistics to Grayd00r.\n\nThe following data will be sent to Grayd00r:";
+"ACTIVATE_DATA" = "- Device Type (%@/%@)\n- Installer Version Used (%.3f)\n- Update Group (%@)\n- Unique Identifier*\n- Locale Information** (%@)\n- iOS Version (%@)\n";
+"ACTIVATE_NOTES" = "* The unique identifier is not your UDID, although it is generated based on it. We cannot get your UDID from it.\n** This is not location information being sent. This is the language in use on the device. We collect this so that we can better support our users. (You!)";
+"ACTIVATE_BUTTON" = "Activate";
+"ACTIVATE_VERIFYING_INSTALLER" = "Please Wait...";
+"ACTIVATE_VERIFYING_INSTALLER_FAILED" = "Installer Error.";
+"ACTIVATE_INSTALLER_ERROR_TITLE" = "Activation Error";
+"ACTIVATE_INSTALLER_ERROR_BODY" = "You can only activate Grayd00r if you used a valid Installer tool on your computer.";
+"ACTIVATE_SENDING_ACTIVATION_REQUEST" = "Activating...";
+"ACTIVATE_PASS" = "Activated.";
+"ACTIVATE_FAIL" = "Failed to activate install";
+"ACTIVATE_INTERNET_ERROR_TITLE" = "Activation Error";
+"ACTIVATE_INTERNET_ERROR_BODY" = "An active internet connection is required to activate. Please check your connection and try again.";
+"ACTIVATE_CONTINUE" = "Continue";
+"ACTIVATION_ERROR_TITLE" = "Error";
+"ACTIVATION_CANT_REACH_SERVER_BODY" = "Unable to reach the activation server.\nPlease make sure you have a valid internet connection and try again.";
+"ACTIVATION_BAD_RESPONSE_BODY" = "Bad response from server, please try again.";
+"ACTIVATION_FAILED_BODY" = "Activation failed.\nYou can re-try but it may be a server side issue.";
+"ACTIVATION_BAD_PERMISSIONS_BODY" = "Unable to write to /var/mobile/Library/Greyd00r/ActivationKeys.\nPlease make sure it has mobile writable permissions/ownership and try again.";
+"ACTIVATION_BAD_INSTALLER" = "You can only activate via a valid Grayd00r installer.\nPlease re-install using the latest version from http://grayd00r.com.";
+"ACTIVATION_NO_OTA_GROUP" = "I'm not sure how you got this message, but you don't have an OTA group set, and you really should. Please check the support on http://grayd00r.com for more information on how to fix this.";
+"ACTIVATION_CANT_MAKE_MESSAGE_TO_SERVER" = "Unable to generate activation request on device.";
+"ACTIVATION_UNHANDLED_ERROR_TITLE" = "Unhandled Error";
+"ACTIVATION_UNHANDLED_ERROR_BODY" = "Unable to determine the cause of this error. The server response was:\n%@";
+"ACTIVATION_SERVER_ERROR_TITLE" = "Server Error";
+"ACTIVATION_ERROR_NO_BLOB" = "The server didn't receive activation request data!\nYou can re-try to activate but it could be a server side issue.";
+"ACTIVATION_ERROR_BAD_ENCRYPTION" = "The server was unable to verify your activation request.";
+"ACTIVATION_ERROR_BAD_USER_INFO" = "The server was unable to validate your activation info.";
+"ACTIVATION_ERROR_CANT_GEN_LICENSE" = "The server is unable to generate an activation key at this time. Please re-try again later.";
+"ACTIVATION_ERROR_CANT_ACCESS_DATABSE" = "The server is unable to access it's statistics database.\nThis is not an issue for you, but you may be asked to re-submit statistic information after this issue has been resolved server side.";
+"ACTIVATION_ERROR_CANT_FIND_DATABASE" = "The server cannot find it's statistics database.\nThis is not an issue for you, but you may be asked to re-submit statistic information after this issue has been resolved server side.";
+"ACTIVATION_ERROR_MISSING_USER_INFO" = "Not all the required information was passed to the statistics server, you may be asked to re-submit statistic information after this issue has been resolved server side.";
+"ACTIVATE_REBOOT_BODY" = "You have activated the device, and are now ready to use Grayd00r!\n\n\nPlease reboot and enjoy :)";
+"ACTIVATE_REBOOT_TITLE" = "Activation Successful";
+
+
+
+"FINISH_INSTALL_HEADER" = "Download Updates";
+"FINISH_INSTALL_BODY" = "You are now ready to download the latest version of Grayd00r on your device.\nPlease make sure you have an internet connection before continuing.\n\nDo not lock the device or close the application until the install has completed.\n\n";
+"FINISH_INSTALL_BUTTON" = "Continue";
+
+
+
+
+"PROGRESS_LABEL_CHECKING_UPDATES" = "Connecting to Server...";
+"INSTALL_BUTTON_LABEL" = "Install %@ Updates";
+"1INSTALL_BUTTON_LABEL" = "Install %@ Update";
+"MODULE_UPDATES_SECTION_TITLE" = "Component Updates";
+"MODULE_INSTALLED_SECTION_TITLE" = "Installed Components";
+"CLOSE_COMPONENT_ALERT_LABEL" = "Close";
+"COMPONENT_ALERT_BODY_TEXT" = "Component ID: %@\n (I'll make this cleaner eventually)";
+"UPDATE_LABEL_WITH_CODE_NAME" = "Update v%@ - %@";
+"UPDATE_LABEL" = "Update v%@";
+"UPDATE_LAST_CHECKED_NEVER" = "Last Checked: Never";
+"UPDATE_LAST_CHECKED" = "Last Checked:\n%@";
+"INSTALL_UPDATE_ALERT_TITLE" = "%@ Update";
+"INSTALL_UPDATE_ALERT_BODY" = "Install %@ updates for %@?";
+"INSTALL_1UPDATE_ALERT_BODY" = "Install %@ update for %@?";
+"INSTALL_UPDATE_ALERT_CANCEL" = "Cancel";
+"INSTALL_UPDATE_ALERT_OKAY" = "Install";
+"UNHANDLED_MESSAGE_TITLE" = "%@ Debug";
+"POPUP_ALERT_CLOSE" = "Close";
+"INSTALL_LOG_START_DOWNLOADING" = "Downloading";
+"INSTALL_LOG_PASS_DOWNLOADING" = "Downloaded";
+"INSTALL_LOG_ERROR_DOWNLOADING" = "Error Downloading";
+"INSTALL_LOG_START_INSTALLING" = "Installing";
+"INSTALL_LOG_PASS_INSTALLING" = "Installed";
+"INSTALL_LOG_ERROR_INSTALLING" = "Error Installing";
+"RESTART_BUTTON_LABEL" = "Reboot Device";
+"PROGRESS_VIEW_DONE_INSTALLING" = "Install Completed.";
+"ERROR_CHECKING_UPDATES_TITLE" = "Error";
+"ERROR_CHECKING_UPDATES_BODY" = "Unable to check for updates for %@\nplease check your internet connection and try again.";
+"INSTALLER_UPDATE_TITLE" = "Installer Update";
+"INSTALLER_UPDATE_BODY" = "To get this update you must re-install Grayd00r using the installer v%@.\n\n Please download it on your computer from\nhttp://grayd00r.com";
+"MERCURY_ERROR_STARTING_TITLE" = "Installer Error";
+"MERCURY_ERROR_STARTING_BODY" = "You can only use this tool with Grayd00r!";
+
+
+
+
+
+

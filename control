@@ -1,0 +1,9 @@
+Package: com.greyd00r.setup
+Name: GDSetup
+Depends: 
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Used to configure and finish the install of Grayd00r on your device.
+Maintainer: Grayd00r
+Author: Grayd00r
+Section: Utilities
